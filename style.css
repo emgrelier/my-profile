@@ -1,0 +1,106 @@
+/*Colors and fonts*/
+body {
+	text-align: center;
+	background-color: #EEEEEE;
+	color:  #548CA8;
+	font-family: Calibri;
+	font-size: 17px;
+}
+
+h1, h2, h3, a {
+	font-family: 'Lora', serif;;
+}
+
+h1 {
+	text-align: center;
+	color:  #334257;
+	font-weight:  800;
+	letter-spacing : 8px;
+	font-size:  32px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h2 {
+	text-align: center;
+	color: #476072;
+	font-size: 24px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+a {
+	text-decoration: none;
+	color:  lightcoral;
+	font-size:  20px; 
+	margin: 100px;
+}
+a:hover {
+	color: #334257 ;
+}
+
+ul {
+	list-style: none;
+}
+
+div {
+	background : #EEEEEE;
+	border: 1px solid #334257;
+	margin: 14px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px #334257;
+	padding : 20px 30px
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+}
+
+/* Custom design with class*/
+.btn-blue {
+	background-color: lightcoral;
+	color : white;
+	padding:  15px 20px;
+	border-radius: 10px;
+}
+.btn-blue:hover {
+	background-color: #334257;
+	color: white;
+}
+.list-inline {
+	padding-left: 0px;
+}
+.list-inline li {
+	display:  inline;
+	padding:  2px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: lightcoral;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: #334257 ;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width:  600px;
+
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width:  400px;
+
+	}
+}
